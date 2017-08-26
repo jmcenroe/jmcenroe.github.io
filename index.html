@@ -1,39 +1,89 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<meta charset="UTF-8">
 <head>
+	<meta charset="UTF-8">	
 	<title>Student Bio</title>
-
-		<link rel="stylesheet" href="style.css">	
+	<link rel="stylesheet" href="style.css">	
 </head>
 
 <body>
 
-		<h1 id="header">Student Bio</h1>
+	<div class="header-container">
 
-	<div id="left">
+		<header>
 
-		<h1>Jarrod McEnroe</h1>
-
-		<img src="profile.jpg" alt="Jarrod McEnroe"> 
+			<div id="name">
+				<h1 id="name">Jarrod McEnroe</h1>
+			</div>
+		
+			<nav>
+				<span class="main-nav">
+					<span id="index"> <a href="index.html">About |</a> </span> 
+					<span id="portfolio"> <a href="#">Portfolio |</a> </span> 
+					<span id="contact"> <a href="#">Contact</a> </span>
+				</span>
+			</nav>
+	
+		</header>
 
 	</div>
 
-	<div id="blurb">
+	<hr id="header-hr">
 
-	<p>My name is Jarrod. After a career in a regular office job, not to mention many attempts to teach myself, the need to get creative and understand technology more led me to enroll in a coding bootcamp. I am new to coding and am excited about coding!</p>
+	<div class="content">
+				
+		<section>
 
-	</div>
+			<article>
 
-	<div id="bottom">
+				<h1 class="about">About Me</h1>
 
-	<h1 id="contact">Contact Info</h1>
+				<hr id="about">
 
-		<ul>
-			<li><strong>Email:</strong> <a href="mailto:jwmcenroe@gmail.com">jwmcenroe@gmail.com</a></li>
-			<li><strong>GitHub:</strong> <a href="https://github.com/jmcenroe">jmcenroe</a></li>
-			<li><strong>Portfolio:</strong> <a href="#">Coming Soon</a></li>
-		</ul>
+				<div id="paragraph">
+
+					<img src="Assets/profile.jpg" alt="Jarrod McEnroe">
+
+					<p>I was born and raised in Sourthern California, so I always knew I would end up living in a place like San Diego. I moved here over 4 years ago and never looked back. 
+
+					<br><br>
+
+					I have worked in a regular office jobs for the past 10 years and decided I needed a change. The need to get creative and understand the technology I use daily became too strong to ignore. The more I looked into coding as a hobby, the more fun (and frustrating) it became. After many attempts to teach myself coding, I decided to enroll in a coding bootcamp. Although I am new to coding, I am excited about all of the opportunities it presents!</p>
+
+				</div>
+
+			</article>
+
+		</section>
+
+		<aside>
+
+			<h1>Connect With Me</h1>
+
+			<hr id="aside">
+
+			<div class="aside-img">
+
+				<a href="https://github.com/jmcenroe">
+					<img src="Assets/github.jpg" alt="github">
+				<a href="https://www.linkedin.com/in/jarrod-mcenroe-4b915624">
+					<img src="Assets/linkedin.jpg" alt="linkedin">
+				<a href="https://stackexchange.com/users/11518074/jarrod-mcenroe">
+					<img src="Assets/stack-overflow.jpg" alt="stack-overflow">
+
+			</div>
+
+		</aside>
+
+	</content>
+
+	<footer>
+
+		<hr id="footer">
+
+		<span id="footer-p">© Copyright 2017 Jarrod McEnroe</span>
+
+	</footer>
 
 </body>
 
